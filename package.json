@@ -1,0 +1,15 @@
+{
+    "name": "eslint-plugin-webbylab",
+    "version": "0.0.1",
+    "homepage": "https://github.com/WebbyLab/eslint-plugin-webbylab",
+    "description": "Eslint plugin that we use in webbylab",
+    "author": {
+        "name": "webbylab",
+        "url": "http://webbylab.com"
+    },
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:WebbyLab/eslint-plugin-webbylab.git"
+    }
+}
