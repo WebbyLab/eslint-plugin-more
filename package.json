@@ -1,9 +1,9 @@
 {
-    "name": "eslint-plugin-webbylab",
+    "name": "eslint-plugin-more",
     "version": "0.0.1",
     "keywords": ["eslint","eslintplugin"],
-    "homepage": "https://github.com/WebbyLab/eslint-plugin-webbylab",
-    "description": "Eslint plugin that we use in WebbyLab",
+    "homepage": "https://github.com/WebbyLab/eslint-plugin-more",
+    "description": "Extra rules for Eslint",
     "author": {
         "name": "webbylab",
         "url": "http://webbylab.com"
@@ -11,6 +11,6 @@
     "main": "./index.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:WebbyLab/eslint-plugin-webbylab.git"
+        "url": "git@github.com:WebbyLab/eslint-plugin-more.git"
     }
 }
