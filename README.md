@@ -49,7 +49,7 @@ Finally, enable all of the rules that you would like to use. For example:
 * [no-window](docs/no-window.md): Prohibits the usage of `window` global
 * [force-native-method](docs/force-native-method.md): - Forces the use of native methods instead of lodash/underscore
 * [no-numeric-endings-for-variables](docs/no-numeric-endings-for-variables.md): - Prohibits the use of variables that end in numerics.
-* no-duplicated-chains - prohibits duplication of long chains like "this.props.user.name"
+* [no-duplicated-chains](docs/no-duplicated-chains.md): - Prohibits the duplication of long chains like "this.props.user.name"
 * classbody-starts-with-newline - forces/prohibits new line at the beggining of class body
 
 ## Author

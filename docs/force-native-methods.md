@@ -1,6 +1,6 @@
 # Forces the use of native methods instead of lodash/underscore
 
-Many of the array functionality present in libraries like [lodash.com](lodash) or [underscore.com](underscore) are available on the Array prorptype.
+Many of the array functionality present in libraries like [lodash.com](lodash) or [underscorejs.org](underscore) are available on the Array prorptype.
 
 ## Rule Details
 
