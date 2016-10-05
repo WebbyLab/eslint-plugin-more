@@ -1,4 +1,4 @@
-# Forces the use of async / await intead ofthen
+# Forces the use of async / await intead of then
 
 `async` / `await` can be used in conjunction with promises to make asyncronous code act in a syncronous manner.
 
