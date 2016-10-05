@@ -46,7 +46,7 @@ Finally, enable all of the rules that you would like to use. For example:
 # Supported rules
 
 * [no-then](docs/no-then.md): Forces the use of async / await intead of then
-* no-window - prohibits usage of "window" global.
+* [no-window](docs/no-window.md): Prohibits the usage of `window` global
 * force-native-method - forces to use native methods instead of lodash.
 * no-numeric-endings-for-variables - prohibits variables with names like "user1" and "user2".
 * no-duplicated-chains - prohibits duplication of long chains like "this.props.user.name"
