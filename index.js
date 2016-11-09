@@ -3,6 +3,9 @@
 
 module.exports = {
     rules: {
+        'no-void-map': require('./lib/rules/no-void-map.js'),
+        'no-c-like-loops': require('./lib/rules/no-c-like-loops.js'),
+        'prefer-includes': require('./lib/rules/prefer-includes.js'),
         'no-then': require('./lib/rules/no-then'),
         'no-window': require('./lib/rules/no-window'),
         'no-numeric-endings-for-variables': require('./lib/rules/no-numeric-endings-for-variables'),
@@ -13,6 +16,9 @@ module.exports = {
     configs: {
     recommended: {
       rules: {
+        'more/no-void-map': 2,
+        'more/no-c-like-loops': 2,
+        'more/prefer-includes': 2,
         'more/no-then': 2,
         'more/no-window': 2,
         'more/no-numeric-endings-for-variables': 2,
