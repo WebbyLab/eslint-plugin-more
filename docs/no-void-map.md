@@ -1,4 +1,6 @@
-# 
+# Forces to assign array.map to variable
+
+You have not to leave array.map without variable or property (bad example). Here you can to assign it to variable if you need new array of elements from old array (first good example ) or continue to work with new array with other property (second good example). Look carefully at examples.
 
 ## Rule Details
 

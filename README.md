@@ -47,10 +47,10 @@ Finally, enable all of the rules that you would like to use. For example:
 ```
 
 # Supported rules
-* [no-void-map](docs/no-void-map.md): Prohibits the use of 
+* [no-void-map](docs/no-void-map.md): Prohibits the use of array.map without variable or property
 * [no-c-like-loops](docs/no-c-like-loops.md): Prohibits the use of 'For loop' with ++ or +=
 * [prefer-includes](docs/prefer-includes.md): Prohibits the use of comparison array.indexOf() == -1 and ask to use 'includes' instead
-* [no-then](docs/no-then.md): Forces the use of async / await intead of then
+* [no-then](docs/no-then.md): Forces the use of async / await instead of then
 * [no-window](docs/no-window.md): Prohibits the usage of `window` global
 * [force-native-methods](docs/force-native-methods.md): - Forces the use of native methods instead of lodash/underscore
 * [no-numeric-endings-for-variables](docs/no-numeric-endings-for-variables.md): - Prohibits the use of variables that end in numerics.
