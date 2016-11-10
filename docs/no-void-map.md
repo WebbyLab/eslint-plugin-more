@@ -13,14 +13,14 @@ users.map(user=> user.status = "ACTIVE");
 The following pattern is not considered a warning:
 
 ```js
-var users = [1, 2, 3, 4];
+var users = [{id: 1}, {id: 2}, {id: 3}];
 
 const usersIds = users.map(user => user.id);
 
 ```
 
 ```js
-var users = [1, 2, 3, 4];
+var users = [{id: 1}, {id: 2}, {id: 3}];
 
 users.map(user => user.id).forEach( id => { console.log(id) } );
 

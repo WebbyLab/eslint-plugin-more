@@ -1,4 +1,4 @@
-# Forces the use of Array.prototype.includes instead of indexOf() if it is equal to -1
+# Forces the use of Array.prototype.includes instead of indexOf() 
 
 ## Rule Details
 
