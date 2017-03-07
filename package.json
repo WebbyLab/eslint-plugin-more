@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git@github.com:WebbyLab/eslint-plugin-more.git"
   },
+  "engines" : {
+      "node" : ">=6.0.0"
+  },
   "scripts": {
     "lint": "eslint ./"
   },
