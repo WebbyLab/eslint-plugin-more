@@ -1,6 +1,6 @@
 # Prohibits an empty line at the beggining of a class body
 
-For clarity, there should be a new line as the immediate line after any class defnitition.
+For clarity, there should be a new line as the immediate line after any class definition.
 
 ## Rule Details
 
