@@ -10,7 +10,8 @@ module.exports = {
         'no-numeric-endings-for-variables': require('./lib/rules/no-numeric-endings-for-variables'),
         'force-native-methods': require('./lib/rules/force-native-methods'),
         'no-duplicated-chains': require('./lib/rules/no-duplicated-chains'),
-        'classbody-starts-with-newline': require('./lib/rules/classbody-starts-with-newline')
+        'classbody-starts-with-newline': require('./lib/rules/classbody-starts-with-newline'),
+        'no-filter-instead-of-find': require('./lib/rules/no-filter-instead-of-find')
     },
     configs: {
         recommended: {
@@ -23,7 +24,8 @@ module.exports = {
                 'more/no-numeric-endings-for-variables': 2,
                 'more/force-native-methods': 2,
                 'more/no-duplicated-chains': 2,
-                'more/classbody-starts-with-newline': [2, 'never']
+                'more/classbody-starts-with-newline': [2, 'never'],
+                'more/no-filter-instead-of-find': 2
             }
         }
     }
