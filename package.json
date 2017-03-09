@@ -1,16 +1,35 @@
 {
-    "name": "eslint-plugin-more",
-    "version": "0.1.1",
-    "keywords": ["eslint","eslintplugin"],
-    "homepage": "https://github.com/WebbyLab/eslint-plugin-more",
-    "description": "Extra rules for Eslint",
-    "author": {
-        "name": "webbylab",
-        "url": "http://webbylab.com"
-    },
-    "main": "./index.js",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:WebbyLab/eslint-plugin-more.git"
-    }
+  "name": "eslint-plugin-more",
+  "version": "0.1.1",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "homepage": "https://github.com/WebbyLab/eslint-plugin-more",
+  "description": "Extra rules for Eslint",
+  "author": {
+    "name": "webbylab",
+    "url": "http://webbylab.com"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WebbyLab/eslint-plugin-more.git"
+  },
+  "engines" : {
+      "node" : ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-config-webbylab": "^2.1.1",
+    "eslint-plugin-fetch": "0.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-no-require-lodash": "^1.1.0",
+    "eslint-plugin-prefer-spread": "^1.0.3",
+    "eslint-plugin-react": "^6.10.0"
+  }
 }

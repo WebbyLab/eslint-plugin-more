@@ -1,6 +1,6 @@
 # Forces the use of async / await intead of then
 
-`async` / `await` can be used in conjunction with promises to make asyncronous code act in a syncronous manner.
+`async` / `await` can be used in conjunction with promises to make asynchronous code act in a synchronous manner.
 
 ## Rule Details
 
