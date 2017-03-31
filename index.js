@@ -20,9 +20,7 @@ module.exports = {
                 'more/no-c-like-loops': 2,
                 'more/prefer-includes': 2,
                 'more/no-then': 2,
-                'more/no-window': [2, {
-                    'exclude': ['postMessage', 'open', 'addEventListener', 'removeEventListener']
-                }],
+                'more/no-window': 2,
                 'more/no-numeric-endings-for-variables': 2,
                 'more/force-native-methods': 2,
                 'more/no-duplicated-chains': 2,
