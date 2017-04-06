@@ -45,8 +45,7 @@ Finally, enable all of the rules that you would like to use. For example:
     "more/no-filter-instead-of-find": 2,
     "more/force-native-methods": 2,
     "more/no-duplicated-chains": 2,
-    "more/classbody-starts-with-newline": [2, 'never'],
-    "more/align-jsx-props": 2
+    "more/classbody-starts-with-newline": [2, 'never']
   }
 ```
 
@@ -61,7 +60,6 @@ Finally, enable all of the rules that you would like to use. For example:
 * [no-numeric-endings-for-variables](docs/no-numeric-endings-for-variables.md): - Prohibits the use of variables that end in numerics.
 * [no-duplicated-chains](docs/no-duplicated-chains.md): - Prohibits the duplication of long chains like `this.props.user.name`
 * [classbody-starts-with-newline](docs/classbody-starts-with-newline.md) - Prohibits an empty line at the beggining of a class body
-* [align-jsx-props](docs/align-jsx-props.md) - Prevents wrong alignment of jsx properties
 
 ## Author
 WebbyLab (https://webbylab.com)
