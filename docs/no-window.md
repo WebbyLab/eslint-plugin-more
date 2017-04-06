@@ -29,3 +29,29 @@ function getDetail() {
 	return __detail;
 }
 ```
+
+## Rule Options
+
+This rule can take one argument to exclude some properties calls.
+
+```
+...
+"more/no-window": [<enabled>, { exclude: <exclude> }]
+...
+```
+
+* `enabled`: for enabling the rule. 0=off, 1=warn, 2=error.
+* `exclude`: optional array of methods.
+
+The default configuration is:
+
+```js
+{
+  exclude: [
+    'postMessage',
+    'open',
+    'addEventListener',
+    'removeEventListener'
+  ]
+}
+```
