@@ -12,7 +12,7 @@ module.exports = {
         'no-duplicated-chains': require('./lib/rules/no-duplicated-chains'),
         'classbody-starts-with-newline': require('./lib/rules/classbody-starts-with-newline'),
         'no-filter-instead-of-find': require('./lib/rules/no-filter-instead-of-find'),
-        'no-constructor-in-component': require('./lib/rules/no-constructor-in-component')
+        'no-constructor-in-react-component': require('./lib/rules/no-constructor-in-react-component')
     },
     configs: {
         recommended: {
@@ -27,7 +27,7 @@ module.exports = {
                 'more/no-duplicated-chains': 2,
                 'more/classbody-starts-with-newline': [2, 'never'],
                 'more/no-filter-instead-of-find': 2,
-                'more/no-constructor-in-component': 2
+                'more/no-constructor-in-react-component': 2
             }
         }
     }

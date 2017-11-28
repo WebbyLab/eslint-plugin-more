@@ -1,4 +1,4 @@
-const rule = require('../../../lib/rules/no-constructor-in-component');
+const rule = require('../../../lib/rules/no-constructor-in-react-component');
 const RuleTester = require('eslint').RuleTester;
 
 const parserOptions = {
@@ -18,7 +18,7 @@ require('babel-eslint');
 
 const ruleTester = new RuleTester({ parserOptions });
 
-ruleTester.run('no-constructor-in-component', rule, {
+ruleTester.run('no-constructor-in-react-component', rule, {
 
     valid: [ {
         code: `

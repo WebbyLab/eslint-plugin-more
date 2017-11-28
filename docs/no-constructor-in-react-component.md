@@ -1,4 +1,4 @@
-# Do not allow constructor in React components (more/no-constructor-in-component)
+# Do not allow constructor in React components (more/no-constructor-in-react-component)
 
 In most cases, we don't need a constructor in React Components instead we can use a static propTypes property to pass props in a component. This rule does not allow you to use a constructor in components.
 
