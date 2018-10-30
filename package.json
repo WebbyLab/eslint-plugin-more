@@ -20,7 +20,9 @@
       "node" : ">=6.0.0"
   },
   "scripts": {
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -30,6 +32,12 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-no-require-lodash": "^1.1.0",
     "eslint-plugin-prefer-spread": "^1.0.3",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-react": "^6.10.0",
+    "jest": "23.6.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.js"
+    ]
   }
 }
