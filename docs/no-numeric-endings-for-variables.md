@@ -13,5 +13,5 @@ const user1 = 'Tony Stark';
 The following pattern is not considered a warning:
 
 ```js
-const ironMan = 'Tony Stark
+const ironMan = 'Tony Stark';
 ```
