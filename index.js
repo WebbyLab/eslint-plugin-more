@@ -15,6 +15,9 @@ module.exports = {
     },
     configs: {
         recommended: {
+            plugins: [
+                'more'
+            ],
             rules: {
                 'more/no-void-map': 2,
                 'more/no-c-like-loops': 2,
