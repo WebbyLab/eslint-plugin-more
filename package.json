@@ -16,8 +16,8 @@
     "type": "git",
     "url": "git@github.com:WebbyLab/eslint-plugin-more.git"
   },
-  "engines" : {
-      "node" : ">=6.0.0"
+  "engines": {
+    "node": ">=6.0.0"
   },
   "scripts": {
     "lint": "eslint ./"
@@ -30,6 +30,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-no-require-lodash": "^1.1.0",
     "eslint-plugin-prefer-spread": "^1.0.3",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^4.0.1"
   }
 }

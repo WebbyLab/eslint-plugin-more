@@ -11,7 +11,8 @@ module.exports = {
         'force-native-methods': require('./lib/rules/force-native-methods'),
         'no-duplicated-chains': require('./lib/rules/no-duplicated-chains'),
         'classbody-starts-with-newline': require('./lib/rules/classbody-starts-with-newline'),
-        'no-filter-instead-of-find': require('./lib/rules/no-filter-instead-of-find')
+        'no-filter-instead-of-find': require('./lib/rules/no-filter-instead-of-find'),
+        'no-constructor-in-react-component': require('./lib/rules/no-constructor-in-react-component')
     },
     configs: {
         recommended: {
@@ -28,7 +29,8 @@ module.exports = {
                 'more/force-native-methods': 2,
                 'more/no-duplicated-chains': 2,
                 'more/classbody-starts-with-newline': [2, 'never'],
-                'more/no-filter-instead-of-find': 2
+                'more/no-filter-instead-of-find': 2,
+                'more/no-constructor-in-react-component': 2
             }
         }
     }
