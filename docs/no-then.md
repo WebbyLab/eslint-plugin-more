@@ -23,6 +23,6 @@ async function getSomeData() {
   return fetch('http://some.url/')
 }
 
-const responst = await getSomeData()
+const response = await getSomeData()
 console.log(response);
 ```

@@ -10,7 +10,7 @@ The following pattern is considered a warning:
 render() {
 	return (<div className={this.props.className}>
 		<p>{this.props.text}</p>
-	<div>)
+	</div>)
 }
 ```
 
@@ -22,7 +22,7 @@ render() {
 
 	return (<div className={className}>
 		<p>{text}</p>
-	<div>)
+	</div>)
 }
 ```
 
@@ -32,6 +32,6 @@ render() {
 
 	return (<div className={props.className}>
 		<p>{props.text}</p>
-	<div>)
+	</div>)
 }
 ```

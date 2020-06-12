@@ -7,7 +7,7 @@ You have not to leave array.map without variable or property (bad example). Here
 The following pattern is considered a warning:
 
 ```js
-users.map(user=> user.status = "ACTIVE");
+users.map(user => user.status == "ACTIVE");
 ```
 
 The following pattern is not considered a warning:
@@ -22,6 +22,6 @@ const usersIds = users.map(user => user.id);
 ```js
 var users = [{id: 1}, {id: 2}, {id: 3}];
 
-users.map(user => user.id).forEach( id => { console.log(id) } );
+users.map(user => user.id).forEach(id => { console.log(id) } );
 
 ```
