@@ -47,6 +47,7 @@ Finally, enable all of the rules that you would like to use. For example:
     "more/no-duplicated-chains": 2,
     "more/classbody-starts-with-newline": [2, 'never'],
     "more/no-hardcoded-password": 2,
+    "more/no-hardcoded-configuration-data": 2
   }
 ```
 
@@ -62,6 +63,7 @@ Finally, enable all of the rules that you would like to use. For example:
 * [no-duplicated-chains](docs/no-duplicated-chains.md): - Prohibits the duplication of long chains like `this.props.user.name`
 * [classbody-starts-with-newline](docs/classbody-starts-with-newline.md) - Prohibits an empty line at the beggining of a class body
 * [no-hardcoded-password](docs/no-hardcoded-password.md) - Prohibits using hardcoded passwords.
+* [no-hardcoded-configuration-data](docs/no-hardcoded-configuration-data.md) - Prohibits using hardcoded configuration data.
 
 ## Author
 WebbyLab (https://webbylab.com)
