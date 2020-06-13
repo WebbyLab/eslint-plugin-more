@@ -2,6 +2,8 @@
 
 [![NPM](https://nodei.co/npm/eslint-plugin-more.png?compact=true)](https://npmjs.org/package/eslint-plugin-more)
 
+[![Build Status](https://travis-ci.org/WebbyLab/eslint-plugin-more.svg?branch=master)](https://travis-ci.org/WebbyLab/eslint-plugin-more)
+
 Eslint is a very great tool and it already has tons of rules. Eslint allows us to reduce amount of time required for code review. But, of course, eslint cannot cover all the issues. So, we do in the following way, if during code review we see, that we comment on thing that is possible to check automatically, then we create new eslint rule.
 
 Some of this rules will go to upstream after proving them in our codebase.

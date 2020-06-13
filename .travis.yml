@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - node # Current
+  - 10 # Latest LTS
+  - 8
+  - 6 # Minimum supported
+before_script:
+  npm run lint
+cache:
+  directories:
+    - $HOME/.npm

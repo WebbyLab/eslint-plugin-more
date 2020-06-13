@@ -16,11 +16,12 @@
     "type": "git",
     "url": "git@github.com:WebbyLab/eslint-plugin-more.git"
   },
-  "engines" : {
-      "node" : ">=6.0.0"
+  "engines": {
+    "node": ">=6.0.0"
   },
   "scripts": {
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "test": "find tests -type f -exec echo -n ▸ {} \\; -exec node {} \\; -exec echo ' ✓' \\;"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
