@@ -12,7 +12,8 @@ module.exports = {
         'no-duplicated-chains': require('./lib/rules/no-duplicated-chains'),
         'classbody-starts-with-newline': require('./lib/rules/classbody-starts-with-newline'),
         'no-filter-instead-of-find': require('./lib/rules/no-filter-instead-of-find'),
-        'no-hardcoded-password': require('./lib/rules/no-hardcoded-configuration-data')
+        'no-hardcoded-password': require('./lib/rules/no-hardcoded-password'),
+        'no-hardcoded-configuration-data': require('./lib/rules/no-hardcoded-configuration-data')
     },
     configs: {
         recommended: {
