@@ -21,7 +21,7 @@ module.exports = context => {
         if (REGEX[regex].test(value)) {
             return context.report({
                 node,
-                message : 'Do not use hardcoded configuration data'
+                message : 'Do not use hadrcoded configuration data'
             });
         }
     }
