@@ -1,5 +1,5 @@
+const { RuleTester } = require('eslint/lib/rule-tester')
 const rule = require('../../../lib/rules/no-filter-instead-of-find');
-const RuleTester = require('eslint/lib/testers/rule-tester');
 
 const ruleTester = new RuleTester();
 
