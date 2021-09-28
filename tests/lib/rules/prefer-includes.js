@@ -14,6 +14,7 @@ ruleTester.run('prefer-includes', rule, {
         // Expressions below used to cause ESLint parser bugs
         'foo() + "bar"',
         'obj.field += sum - some.value',
+        'parseInt(obj.field, 10) > 5 ? \'abc\' : obj.field'
     ],
     invalid: [
         {
