@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-more",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "keywords": [
     "eslint",
@@ -21,6 +21,6 @@
     "node": ">=6.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3 || ^4 || ^5 || ^6 || ^7"
+    "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8"
   }
 }
